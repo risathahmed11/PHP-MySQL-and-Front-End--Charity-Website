@@ -1,0 +1,90 @@
+body {
+  background-color: #fbe5dc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #fbe5dc;
+  min-height: 80px;
+}
+
+.navbar-brand img {
+  margin-top: 10px;
+}
+
+.navbar-nav .nav-item.active {
+  background-color: #fab78c;
+  border-radius: 10px;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.jumbotron {
+  background-color: #fab78c;
+  padding: 40px;
+  flex: 1;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: #191918;
+}
+
+.section-container {
+  background-color: #fbe5dc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ef633e !important;
+  color: #fff;
+  border-color: #ef633e;
+}
+.btn-success {
+  border-color: #fab78c;
+}
+.about {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.about h2 {
+  color: #191918;
+  height: 65vh;
+}
+
+.about p {
+  color: #000000;
+  font-size: 18px;
+}
+.bg-custom-color {
+  background-color: #fbe5dc;
+}
+
+.volunteer-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.volunteer-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.volunteer-section .btn-primary {
+  background-color: #ef633e;
+  border-color: #ef633e;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #fab78c;
+  padding: 10px;
+  text-align: center;
+}
